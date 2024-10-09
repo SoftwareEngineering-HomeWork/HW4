@@ -1,0 +1,17 @@
+name: Bash scripts Testing
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Run task1.sh
+      run: ./task1.sh
+    - name: Run task2.sh
+      run: ./task2.sh
+    - name: Run task3.sh
+      run: ./task3.sh
