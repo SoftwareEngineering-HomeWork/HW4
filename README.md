@@ -11,5 +11,5 @@ Data Wrangling
 [linux-badge]:https://img.shields.io/badge/linux-6.10-green
 [linux-url]:https://www.linux.org/
 
-[bash_script-badge]:https://img.shields.io/badge/bash-sh-green
+[bash_script-badge]:https://img.shields.io/badge/bash-5.2-green
 [bash_script-url]:https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html
