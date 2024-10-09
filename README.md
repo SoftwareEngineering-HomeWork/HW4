@@ -13,3 +13,7 @@ Data Wrangling
 
 [bash_script-badge]:https://img.shields.io/badge/bash-5.2-green
 [bash_script-url]:https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html
+
+Task1: task1.sh will kill any 'infinite.sh' process if running in the background
+Task2: task2.sh needs to be executed inside the dataset1 folder
+Task3: task3.sh needs to be executed inside the parent folder
