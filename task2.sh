@@ -1,0 +1,1 @@
+grep -l "sample" file* | xargs grep -c "CSC510" | grep -E ":([3-9]|[1-9][0-9]+)$" | gawk -F ':' '{print $1, $2}' | while read file count; do echo "$file $count $(stat -c%s $file)"; done | sort -k2,2nr -k3,3nr | gawk '{print $1}' | while read file; do echo "$(echo "$file" | sed 's/file_/filtered_/')";done
